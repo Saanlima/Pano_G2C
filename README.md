@@ -1,1 +1,1 @@
-# Pano_G2C
+# Projects for Pano_G2 Rev C
