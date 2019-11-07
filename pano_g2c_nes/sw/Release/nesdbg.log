@@ -1,0 +1,35 @@
+﻿Build started 10/22/2013 4:21:13 PM.
+     1>Project "J:\Documents\Projects\Pipistrello_v2.0\fpga_nes\sw\nesdbg.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\nesdbg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\rsrc /I..\lib\lua\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\dbgpacket.cpp src\main.cpp src\nesdbg.cpp src\scriptmgr.cpp src\scriptmgrdlg.cpp src\serialcomm.cpp
+         dbgpacket.cpp
+         main.cpp
+         nesdbg.cpp
+         scriptmgr.cpp
+         scriptmgrdlg.cpp
+         serialcomm.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\nesdbg.res" rsrc\nesdbg.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Documents\Projects\Pipistrello_v2.0\fpga_nes\sw\Release\nesdbg.exe" /INCREMENTAL:NO /NOLOGO .\lib\lua\lib\lua51.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\nesdbg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\Documents\Projects\Pipistrello_v2.0\fpga_nes\sw\Release\nesdbg.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Documents\Projects\Pipistrello_v2.0\fpga_nes\sw\Release\nesdbg.lib" /MACHINE:X86 Release\nesdbg.res
+         Release\dbgpacket.obj
+         Release\main.obj
+         Release\nesdbg.obj
+         Release\scriptmgr.obj
+         Release\scriptmgrdlg.obj
+         Release\serialcomm.obj
+         Generating code
+         Finished generating code
+         nesdbg.vcxproj -> J:\Documents\Projects\Pipistrello_v2.0\fpga_nes\sw\Release\nesdbg.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"J:\Documents\Projects\Pipistrello_v2.0\fpga_nes\sw\Release\nesdbg.exe;#1" /manifest Release\nesdbg.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\nesdbg.unsuccessfulbuild".
+         Touching "Release\nesdbg.lastbuildstate".
+     1>Done Building Project "J:\Documents\Projects\Pipistrello_v2.0\fpga_nes\sw\nesdbg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24
