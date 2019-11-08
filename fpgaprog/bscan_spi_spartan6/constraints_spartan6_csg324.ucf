@@ -1,0 +1,6 @@
+NET "SPI_MISO"  LOC = "R13"  ; 
+NET "SPI_MOSI"  LOC = "T13"  ; 
+NET "SPI_CS"  LOC = "V3"  ; 
+NET "SPI_SCK"  LOC = "R15"  ;
+NET "SPI_WP"  LOC = "T14" ;
+NET "SPI_HOLD"  LOC = "V14" ;

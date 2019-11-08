@@ -1,0 +1,7 @@
+NET "SPI_MISO"  LOC = "AA20"  ; 
+NET "SPI_MOSI"  LOC = "AB20"  ; 
+NET "SPI_CS"  LOC = "T5"  ; 
+NET "SPI_SCK"  LOC = "Y21"  ;
+
+CONFIG VCCAUX = "2.5" ;
+
